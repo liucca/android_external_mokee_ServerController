@@ -185,9 +185,16 @@ $devices_info = array(
     array('model' => 'z3', 'name' => 'Xperia Z3', 'brand' => 'Sony'),
     array('model' => 'z3c', 'name' => 'Xperia Z3 Compact', 'brand' => 'Sony'),
     array('model' => 'z3dual', 'name' => 'Xperia Z3 Dual', 'brand' => 'Sony'),
+    array('model' => 'z9 mini', 'name' => 'nx511j', 'brand' => 'nubia'),
 );
 
 $hardware_info = array(
+    'nx511j' => array('cpu' => 'Qualcomm® Snapdragon™ APQ8064',
+                     'ram' => '2GB of LP-DDR3',
+                     'rom' => '16GB',
+                     'battery' => '3000 mAh',
+                     'display' => '5.1inch, 1280x720 pixel(340ppi)',
+                     'cpuarch' => 'Arm'),
     'aries' => array('cpu' => 'Qualcomm® Snapdragon™ APQ8064',
                      'ram' => '2GB of LP-DDR3',
                      'rom' => '16GB/64GB',
